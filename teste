@@ -1,1 +1,43 @@
-
+ #include <stdio.h>
+ 
+ int main ( ) {
+     // Carta 1:
+     char estado;
+     char codigo[3];
+     char cidade[20];
+     int populacao;
+     float area;
+     float pib;
+     int pontos;
+     
+     printf("Estado: \n");
+     scanf("%c", &estado);
+     
+     printf("Código da carta: \n");
+     scanf("%s", &codigo);
+     
+     printf("Nome da cidade: \n");
+     scanf("%s", &cidade);
+     
+     printf("População: \n");
+     scanf("%d", &populacao);
+     
+     printf("Área: \n");
+     scanf("%f", &area);
+     
+     printf("PIB: \n");
+     scanf("%f", &pib);
+     
+     printf("N° de pontos turísticos: \n");
+     scanf("%d", &pontos);
+     
+     printf("Estado: %c \n", estado);
+     printf("Código da carta: %s\n", codigo);
+     printf("Nome da cidade: %s\n", cidade);
+     printf("População: %d\n", populacao);
+     printf("Área: %f\n", area);
+     printf("PIB: %f\n", pib);
+     printf("Pontos turísticos: %d\n", pontos);
+     
+     return 0;
+     }
