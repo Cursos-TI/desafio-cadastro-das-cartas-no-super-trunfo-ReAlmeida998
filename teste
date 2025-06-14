@@ -89,6 +89,8 @@ int main() {
     printf("\nResultados da batalha:\n");
     printf("populacao > populacao2: %ld\n", populacao > populacao2);
     printf("area > area2: %2f\n", area > area2);
+    resultado = 1 significa que a carta1 venceu;
+    resultado = 0 significa que a carta1 venceu;
 
     return 0;
 }
