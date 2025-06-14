@@ -86,5 +86,9 @@ int main() {
     printf("Densidade populacional: %.2f\n", resultado2);
     printf("PIB per capita: %.2f\n", resultado4);
     
+    printf("\nResultados da batalha:\n");
+    printf("populacao > populacao2: %ld\n", populacao > populacao2);
+    printf("area > area2: %2f\n", area > area2);
+
     return 0;
 }
